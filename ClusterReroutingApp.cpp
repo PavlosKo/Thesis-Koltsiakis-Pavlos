@@ -14,7 +14,7 @@ using namespace omnetpp;
 Define_Module(CarType);
 
 void ClusterRerouting::initialize() {
-    // Ανάγνωση των παραμέτρων από το INIFILE
+    // Ανάγνωση των παραμέτρων
     numCars = getParentModule()->par("numCars");           // Αριθμός οχημάτων
     k = par("k").intValue();                               // Αριθμός clusters για K-means
     clusterIterationLimit = par("clusterIterationLimit");  // Όριο επαναλήψεων του K-means
@@ -36,7 +36,7 @@ void ClusterRerouting::handleMessage(cMessage *msg) {
         send(bcMessage, "out");
         delete msg;
     } else if (BroadcastMessage *bcMessage = dynamic_cast<BroadcastMessage *>(msg)) {
-        EV << "Το όχημα " << getIndex() << " έλαβε προειδοποίηση ατυχήματος, ξεκινά αλλαγή πορείας...\n";
+        EV << "Το όχημα " << getIndex() << " message delivered, changing route...\n";
         receiveMessage = true;
         rerouteAfterAccident();
         delete bcMessage;
