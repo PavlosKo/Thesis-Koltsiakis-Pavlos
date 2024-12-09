@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <copy file="ClusterRerouting.net.xml" />
+    <copy file="ClusterRerouting.rou.xml" />
+    <copy file="ClusterRerouting.sumocfg" type="config" />
+</launch>

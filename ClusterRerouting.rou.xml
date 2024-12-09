@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-29 12:15:13 by Eclipse SUMO netedit Version 1.11.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="vehicle_0" depart="0.00" from="-E32" to="-E31"/>
+    <trip id="vehicle_1" depart="0.00" color="magenta" from="-E32" to="-E29" via="-E38 -E37 E41 E42"/>
+    <trip id="vehicle_10" depart="0.00" color="magenta" from="-E32" to="-E25" via="E39 E40 E46 E48 -E19 -E18 -E49 -E45"/>
+    <trip id="vehicle_2" depart="0.00" color="magenta" from="-E32" to="-E29" via="-E38 -E37 E41 E42"/>
+    <trip id="vehicle_3" depart="0.00" color="magenta" from="-E32" to="-E25" via="-E38 -E37 -E33 -E45"/>
+    <trip id="vehicle_4" depart="0.00" color="magenta" from="-E32" to="-E29" via="E39 E40 -E44 -E43"/>
+    <trip id="vehicle_5" depart="0.00" color="magenta" from="-E32" to="E24" via="E39 E40 E46 E47"/>
+    <trip id="vehicle_6" depart="0.00" color="magenta" from="-E32" to="-E25" via="-E38 -E37 -E33 -E45"/>
+    <trip id="vehicle_7" depart="0.00" color="magenta" from="-E32" to="-E25" via="E39 E40 -E44 -E43 -E41 -E33 -E45"/>
+    <trip id="vehicle_8" depart="0.00" color="magenta" from="-E32" to="-E25" via="-E38 -E37 -E33 -E45"/>
+    <trip id="vehicle_9" depart="0.00" color="magenta" from="-E32" to="-E29" via="E39 E40 -E44 -E43"/>
+</routes>
